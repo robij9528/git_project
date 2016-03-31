@@ -32,6 +32,7 @@
 </section>
 
 
+
 <div>
 	<form class="row">
 		<div class="small-12 large-10 columns large-centered srchMovies">
