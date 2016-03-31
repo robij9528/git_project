@@ -16,7 +16,18 @@
 
 </head>
 
+
 <body>
+
+<section class="row">
+	<h2 class="hidden">Image Gallery</h2>
+	<h2 class="text-center small-12 large-12 columns">Check out these new films that have just been released!</h2>
+	<div class="large-12 small-6 columns">
+		<img src="images/starwars_tfa.jpg" alt="starwars">
+	</div>
+</section>
+
+	
 <div>
 	<form class="row">
 		<div class="small-12 large-10 columns large-centered srchMovies">
