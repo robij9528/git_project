@@ -40,7 +40,7 @@ function switchPhoto() {
 	console.log("Picture Switched");
 	
 	clicked = this.id;
-	mainPhoto.src = "images/logo" + this.id +".png";
+	mainPhoto.src = "images/movie" + this.id +".jpg";
 	logoHeading.firstChild.nodeValue = movieHeader[this.id];
 	movieDescription.firstChild.nodeValue = movieDesc[this.id];
 }
