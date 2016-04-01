@@ -21,7 +21,7 @@
 
 <section class="row">
 	<h2 class="hidden">Image Gallery</h2>
-	<h2 class="text-center small-12 large-12 columns movieInfo">Check out these new films that have just been released!</h2>
+	<h2 class="text-center small-12 large-12 columns pageTitle">Check out these new films that have just been released!</h2>
 	<div class="large-4 small-12 columns mainImage">
 		<img src="images/starwars_tfa.jpg" alt="starwars">
 	</div>
