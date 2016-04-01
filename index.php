@@ -21,18 +21,18 @@
 
 <section class="row">
 	<h2 class="hidden">Image Gallery</h2>
-	<h2 class="text-center small-12 large-12 columns">Check out these new films that have just been released!</h2>
-	<div class="large-4 small-12 columns">
+	<h2 class="text-center small-12 large-12 columns movieInfo">Check out these new films that have just been released!</h2>
+	<div class="large-4 small-12 columns mainImage">
 		<img src="images/starwars_tfa.jpg" alt="starwars">
 	</div>
-	<div class="small-12 large-8 columns">
+	<div class="small-12 large-8 columns movieTitle">
 		<h2>Star Wars The Force Awakens</h2>
 		<p>Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p>
 	</div>
 </section>
 <section class="row">
 	<h2 class="hidden">Image thumbs</h2>
-	<div class="large-12 small-12 columns">
+	<div class="large-12 small-12 columns thumbnails">
 		<ul class="small-block-grid-3 large-block-grid-8">
 			<li><a href="#"><img src="images/starwars_tfa_TH.jpg" alt="starwars thumb"></a></li>
 			<li><a href="#"><img src="images/10_cloverfield_lane_TH.jpg" alt="10 cloverfield lane thumb"></a></li>
