@@ -19,13 +19,13 @@
 
 <body>
 
-<section class="row">
+<section class="row pageTitle">
 	<h2 class="hidden">Image Gallery</h2>
-	<h2 class="text-center small-12 large-12 columns pageTitle">Check out these new films that have just been released!</h2>
+	<h2 class="text-center small-12 large-12 columns">Check out these new films that have just been released!</h2>
 	<div class="large-4 small-12 columns mainImage">
 		<img src="images/starwars_tfa.jpg" alt="starwars">
 	</div>
-	<div class="small-12 large-8 columns movieTitle">
+	<div class="small-12 large-8 columns movieDesc">
 		<h2>Star Wars The Force Awakens</h2>
 		<p>Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p>
 	</div>
