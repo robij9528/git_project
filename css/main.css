@@ -26,7 +26,7 @@ body
 	font-size: 30px;
 	color: #F09D61;
 	border-top: 2px solid #F09D61;
-	padding-top: 10px;
+	padding-top: 30px;
 }
 
 .movieDesc p
@@ -34,6 +34,11 @@ body
 	font-family: sans-serif;
 	color:#666;
 	line-height: 25px;
+}
+
+.thumbnails
+{
+	margin-top: 4%;
 }
 .srchMovies h2
 {
