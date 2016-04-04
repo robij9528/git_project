@@ -43,7 +43,7 @@ function switchPhoto() {
 	console.log("Picture Switched");
 	
 	clicked = this.id;
-	mainPhoto.src = "images/movie" + this.id +".jpg";
+	mainPhoto.src = "images/mov" + this.id +".jpg";
 	movieH.firstChild.nodeValue = movieHeader[this.id];
 	movieD.firstChild.nodeValue = movieDesc[this.id];
 }
