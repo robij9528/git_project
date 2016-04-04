@@ -23,7 +23,7 @@
 	<h2 class="hidden">Image Gallery</h2>
 	<h2 class="text-center small-12 large-12 columns">Check out these new films that have just been released!</h2>
 	<div class="large-4 small-12 columns mainImage">
-		<img id="mainImage" src="images/movie1.jpg" alt="starwars">
+		<img id="mainImage" src="images/movie0.jpg" alt="starwars">
 	</div>
 	<div class="small-12 large-8 columns movieDesc">
 		<h2>Star Wars The Force Awakens</h2>
@@ -34,14 +34,14 @@
 	<h2 class="hidden">Image thumbs</h2>
 	<div class="large-12 small-12 columns thumbnails">
 		<ul class="small-block-grid-3 large-block-grid-8">
-			<li><a href="#"><img src="images/starwars_tfa_TH.jpg" alt="starwars thumb"></a></li>
-			<li><a href="#"><img src="images/10_cloverfield_lane_TH.jpg" alt="10 cloverfield lane thumb"></a></li>
-			<li><a href="#"><img src="images/deadpool_TH.jpg" alt="deadpool thumb"></a></li>
-			<li><a href="#"><img src="images/revinant_TH.jpg" alt="revinant thumb"></a></li>
-			<li><a href="#"><img src="images/room_TH.jpg" alt="room thumb"></a></li>
-			<li><a href="#"><img src="images/spotlight_TH.jpg" alt="spotlight thumb"></a></li>
-			<li><a href="#"><img src="images/the_witch_TH.jpg" alt="the witch thumb"></a></li>
-			<li><a href="#"><img src="images/zootopia_TH.jpg" alt="zootopia thumb"></a></li>			
+			<li id="0"><a href="#"><img src="images/starwars_tfa_TH.jpg" alt="starwars thumb"></a></li>
+			<li id="1"><a href="#"><img src="images/10_cloverfield_lane_TH.jpg" alt="10 cloverfield lane thumb"></a></li>
+			<li id="2"><a href="#"><img src="images/deadpool_TH.jpg" alt="deadpool thumb"></a></li>
+			<li id="3"><a href="#"><img src="images/revinant_TH.jpg" alt="revinant thumb"></a></li>
+			<li id="4"><a href="#"><img src="images/room_TH.jpg" alt="room thumb"></a></li>
+			<li id="5"><a href="#"><img src="images/spotlight_TH.jpg" alt="spotlight thumb"></a></li>
+			<li id="6"><a href="#"><img src="images/the_witch_TH.jpg" alt="the witch thumb"></a></li>
+			<li id="7"><a href="#"><img src="images/zootopia_TH.jpg" alt="zootopia thumb"></a></li>			
 		</ul>
 	</div>
 
