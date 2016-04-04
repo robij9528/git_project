@@ -13,6 +13,33 @@ body
 	background-color: #FDF3E7;
 }
 
+.pageTitle h2
+{
+	font-family: 'Oswald', sans-serif;
+	color: #7E8F7C;
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+}
+.movieDesc h2 
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #F09D61;
+	border-top: 2px solid #F09D61;
+	padding-top: 30px;
+}
+
+.movieDesc p
+{
+	font-family: sans-serif;
+	color:#666;
+	line-height: 25px;
+}
+
+.thumbnails
+{
+	margin-top: 4%;
+}
 .srchMovies h2
 {
 	font-family: 'Oswald', sans-serif;
