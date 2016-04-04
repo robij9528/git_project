@@ -25,9 +25,9 @@
 	<div class="large-4 small-12 columns mainImage">
 		<img id="mainImage" src="images/movie0.jpg" alt="starwars">
 	</div>
-	<div class="small-12 large-8 columns movieDesc">
-		<h2>Star Wars The Force Awakens</h2>
-		<p>Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p>
+	<div class="small-12 large-8 columns movieDesc" id="movieDesc">
+		<h2 id="movieTitle">Star Wars The Force Awakens</h2>
+		<p id="moviePlot">Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p>
 	</div>
 </section>
 <section class="row">

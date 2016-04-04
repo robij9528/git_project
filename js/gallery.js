@@ -12,14 +12,14 @@ movieHeader[6] = "The Witch";
 movieHeader[7] = "Zootopia";
 
 var movieDesc = [];
-movieDesc[0] = "";
-movieDesc[1] = "";
-movieDesc[2] = "";
-movieDesc[3] = "";
-movieDesc[4] = "";
-movieDesc[5] = "";
-movieDesc[6] = "";
-movieDesc[7] = "";
+movieDesc[0] = "sav";
+movieDesc[1] = "asdf";
+movieDesc[2] = "fsadfs";
+movieDesc[3] = "ff";
+movieDesc[4] = "fdsf";
+movieDesc[5] = "fsdfd";
+movieDesc[6] = "sfdsdf";
+movieDesc[7] = "sdfaef";
 
 
 
@@ -29,8 +29,8 @@ function initPhotos(){
 	thumbnails = document.querySelectorAll(".thumbnails li");
 	clicked = document.querySelector(".thumbnails li:first-child");
 	mainPhoto = document.querySelector("#mainImage");
-	movieHeader  = document.querySelector(".movieDesc h2");
-	movieDesc = document.querySelector(".movieDesc p");
+	movieH = document.querySelector("#movieTitle");
+	movieD = document.querySelector("#moviePlot");
 
 	
 	for (i=0; i<thumbnails.length; i++) {
@@ -44,8 +44,8 @@ function switchPhoto() {
 	
 	clicked = this.id;
 	mainPhoto.src = "images/movie" + this.id +".jpg";
-	movieHeader.firstChild.nodeValue = movieHeader[this.id];
-	movieDesc.firstChild.nodeValue = movieDesc[this.id];
+	movieH.firstChild.nodeValue = movieHeader[this.id];
+	movieD.firstChild.nodeValue = movieDesc[this.id];
 }
 
 
