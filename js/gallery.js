@@ -2,12 +2,14 @@
 
 
 var movieHeader = [];
-movieHeader[0] = "";
-movieHeader[1] = "";
-movieHeader[2] = "";
-movieHeader[3] = "";
-movieHeader[4] = "";
-movieHeader[5] = "";
+movieHeader[0] = "Star Wars The Force Awakens";
+movieHeader[1] = "10 Cloverfield Lane";
+movieHeader[2] = "Deadpool";
+movieHeader[3] = "Revinant";
+movieHeader[4] = "Room";
+movieHeader[5] = "Spotlight";
+movieHeader[6] = "The Witch";
+movieHeader[7] = "Zootopia";
 
 var movieDesc = [];
 movieDesc[0] = "";
@@ -16,18 +18,19 @@ movieDesc[2] = "";
 movieDesc[3] = "";
 movieDesc[4] = "";
 movieDesc[5] = "";
-
+movieDesc[6] = "";
+movieDesc[7] = "";
 
 
 
 function initPhotos(){
 	
 	console.log("init fired");
-	thumbnails = document.querySelectorAll(".thumbnailList li");
-	clicked = document.querySelector(".thumbnailList li:first-child");
+	thumbnails = document.querySelectorAll(".thumbnails li");
+	clicked = document.querySelector(".thumbnails li:first-child");
 	mainPhoto = document.querySelector("#mainImage");
-	logoHeading = document.querySelector("#movieDescription h3");
-	movieDescription = document.querySelector("#movieDescription p");
+	movieHeader  = document.querySelector(".movieDesc h2");
+	movieDesc = document.querySelector(".movieDesc p");
 
 	
 	for (i=0; i<thumbnails.length; i++) {
@@ -41,8 +44,8 @@ function switchPhoto() {
 	
 	clicked = this.id;
 	mainPhoto.src = "images/movie" + this.id +".jpg";
-	logoHeading.firstChild.nodeValue = movieHeader[this.id];
-	movieDescription.firstChild.nodeValue = movieDesc[this.id];
+	movieHeader.firstChild.nodeValue = movieHeader[this.id];
+	movieDesc.firstChild.nodeValue = movieDesc[this.id];
 }
 
 
