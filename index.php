@@ -23,7 +23,7 @@
 	<h2 class="hidden">Image Gallery</h2>
 	<h2 class="text-center small-12 large-12 columns">Check out these new films that have just been released!</h2>
 	<div class="large-4 small-12 columns mainImage">
-		<img id="mainImage" src="images/movie0.jpg" alt="starwars">
+		<img id="mainImage" src="images/mov0.jpg" alt="starwars">
 	</div>
 	<div class="small-12 large-8 columns movieDesc" id="movieDesc">
 		<h2 id="movieTitle">Star Wars The Force Awakens</h2>
